@@ -1,6 +1,7 @@
 import{useState} from 'react';
 import './App.css';
 
+
 function App(){
   const[text,setText] = useState('');
 
@@ -16,5 +17,6 @@ function App(){
     </div>
   );
 }
+
 
 export default App;
